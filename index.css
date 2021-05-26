@@ -3,8 +3,8 @@
 }
 
 .Topnav a {
-    float: left;
-    color: #A9C6D9;
+    float: right;
+    color:#122140
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -13,13 +13,13 @@
 
 /* Change the color of the links on hover */
 .Topnav a:hover  {
-    background-color: #122140;
-    color: black;
+    background-color: #A9C6D9; 
+    color: #122140
 }
 
 /* Add a color to the active/current link*/
 .Topnav a.active {
     background-color: #122140;
-    color: white;
+    color: #A9C6D9
 }
 
