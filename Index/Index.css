@@ -8,6 +8,17 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+
+.img {
+  position: ;
+  float: left;
+  width: 50px;
+  height: 50px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+
 .topnav {
   overflow: hidden;
   background-color:#A9C6D9;
@@ -38,11 +49,4 @@ body {
 .div class{
   
 
-<img> {
-  position: 
-  height; 40px
-  background: #a9c6d9
-  border-radius: 60px 60px 0 0 / 50px 50px 0 0;
-  border: 2px solid #122140;
-}
 
