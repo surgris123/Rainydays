@@ -13,8 +13,11 @@ h1{
   text-align: center;
 }
 
-p{
+
+.p a:hover {
   text-align: center;
+  float: right;
+  
 }
 .navigation-bar a:hover {
   background-color: #122140;
@@ -24,7 +27,7 @@ p{
 .navigation-bar a.active {
   background-color: #122140;
   color: white;
-  size: 20px;
+  size: 25px;
 }
 
 .navigation-bar {
@@ -32,18 +35,22 @@ p{
   height: 190px; 
   background-color:#A9C6D9;
 }
-.logo {
+.navigation-bar {
   display: inline-block;
   vertical-align: top;
-  width: 190px;
+  width: 100%
   height: 140px;
-  margin-right: 90px;
+  margin-right: 350px;
   margin-top: 15px;   
+  
 }
-.navigation-bar input .search{
+
+.search{
+  float: inline-end;
   border-radius: 8px;
   padding: 6px;
 }
+
 .navigation-bar > a {
   display: inline-block;
   vertical-align: top;
@@ -52,16 +59,14 @@ p{
   line-height: 80px;   
 }
 
-<section>
-.mountains{
+.section{
   vertical-align: bottom;
   display: inline-block;
   width: 50%;
   margin-right: 150px;
 }
-</section>
 
-  .img{
+.img{
   display: inline-block;
   vertical-align: bottom;
   Width: 400px;
@@ -110,6 +115,7 @@ html {
 footer{
   background-color: #A9C6D9;
   vertical-align: bottom;
+  text-align: center;
   
 
 }
@@ -119,7 +125,7 @@ footer{
 
 
 
-}
+
   
 
 
