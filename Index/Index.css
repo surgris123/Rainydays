@@ -28,10 +28,7 @@ p{
   color: #122140;
   text-align: end;
   padding: 14px 16px;
-  font-size: 17px;
-
-.Icons:hover {
-  color: #C4712C
+  font-size: 17px; 
 }
 
 .menu:hover.active {
@@ -40,6 +37,7 @@ p{
   size: 25px;
 }
 
+}
 /* Add a black background color to the top navigation bar */
 .topnav {
   overflow: hidden;
@@ -69,7 +67,7 @@ p{
 /* Style the "active" element to highlight the current page */
 .topnav a.active {
   background-color:#122140;
-  color: #A9C6D9;
+  color: white;
 }
 
 .topnav input[type=text] {
